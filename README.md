@@ -30,7 +30,7 @@
     @if (isAvailable.HasValue) {
         if (isAvailable == true) {
             <button @onclick="connect">Connect</button>
-            <button @onclick="disconnect">Connect</button>
+            <button @onclick="disconnect">Disconnect</button>
 
             <br />
             
