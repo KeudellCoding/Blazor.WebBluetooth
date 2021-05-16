@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>KeudellCoding</Authors>
+    <Copyright>MIT License</Copyright>
+    <Product>Blazor.WebBluetooth</Product>
+    <Description>Blazor service for the experimental WebBluetooth functions.</Description>
+    <PackageTags>blazor;webbluetooth</PackageTags>
+    <PackageProjectUrl>https://github.com/KeudellCoding/Blazor.WebBluetooth</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/KeudellCoding/Blazor.WebBluetooth</RepositoryUrl>
+	<Version>1.0</Version>
+  </PropertyGroup>
+
+  
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
